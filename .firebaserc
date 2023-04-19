@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "databilize-75989"
+  },
+  "targets": {
+    "databilize-75989": {
+      "hosting": {
+        "databilize": [
+          "databilize-75989"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.sesionbar{
+    background-color: #f7b757;
+    height: 40px;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn {
+    background-color: #fc9200;
+    color: #ffffff;
+    height: 30px;
+    padding: 2px 5px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.col{
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.contenido{
+    height:  calc(100vh - 175px);
+    width: 100%;
+    padding: 20px;
+}
+
+li {
+    background-color: #f7b757;
+    border-radius: 10px 10px 0 0;
+    border-width: 1px;
+    border-right: solid;
+    border-right-color: #fa9805;
+    border-top: solid;
+    border-top-color: #fa9805;
+}
+
+button{
+    color: #111111;
+}
+
+.tab-content{
+    height: 90%;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px #fa9805;
+}
+
+button:hover{
+    background-color: #fa9805;
+}

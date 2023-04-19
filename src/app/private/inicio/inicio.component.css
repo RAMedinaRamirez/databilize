@@ -1,0 +1,10 @@
+.contenido{
+    height:  calc(100vh - 175px);
+    width: 100%;
+}
+
+.map{
+    height: 90%;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px #fa9805;
+}

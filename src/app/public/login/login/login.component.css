@@ -1,0 +1,12 @@
+.contenido{
+    height:  calc(100vh - 125px);
+    width: 100%;
+}
+
+.icon-data, .btn-data{
+    background-color: rgba(252,146,0,1.00);
+}
+
+.pt-1, a{
+    color: rgba(252,146,0,1.00)
+}

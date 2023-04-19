@@ -1,0 +1,7 @@
+<div class="row sesionbar" *ngIf="userLogged|async as user">
+    <div class="col m-2 col-3">Usuario: {{user.email}}</div>
+    <div class="col m-2 col-1">
+        <button class="btn fs-6" (click)="logout()">Salir</button>
+    </div>
+    
+</div>

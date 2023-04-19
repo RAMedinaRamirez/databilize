@@ -50,6 +50,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -116,8 +117,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "databilize:build:production",
+            "firebaseProject": "databilize-75989",
+            "firebaseHostingSite": "databilize-75989"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "db3c4e88-e3ac-4571-aec7-5aeb4f8d0e7f"
   }
 }
